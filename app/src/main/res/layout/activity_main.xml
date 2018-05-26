@@ -14,25 +14,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <android.support.design.widget.CoordinatorLayout
+            <android.suport.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
                 xmlns:android="http://schemas.android.com/apk/res/android"
+                android:scrollbars="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="120dp">
 
-            </android.support.design.widget.CoordinatorLayout>
+            </android.suport.v7.widget.RecyclerView>
 
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="305dp">
-
-                <android.support.design.widget.CoordinatorLayout
-                    xmlns:android="http://schemas.android.com/apk/res/android"
+                <ScrollView
                     android:layout_width="match_parent"
                     android:layout_height="300dp">
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
-                </android.support.design.widget.CoordinatorLayout>
-
-            </ScrollView>
+                    </GridLayout>
+                </ScrollView>
 
         </LinearLayout>
 
